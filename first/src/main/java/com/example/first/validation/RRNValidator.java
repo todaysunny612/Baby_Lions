@@ -37,6 +37,7 @@ public class RRNValidator {
             throw new IllegalArgumentException("유효하지 않은 이름");
         }
 
+
         User user = new User(name, rrn);
 
         if (gender == '1' || gender == '3') {
