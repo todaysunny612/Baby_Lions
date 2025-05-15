@@ -29,16 +29,8 @@ public class RecruitEntity {
 
     @Column(nullable = false) //nullable이 null값이 들어갈 수 있는지 없는지
     private Date applyDate;
-
-    @Column(nullable = false) //nullable이 null값이 들어갈 수 있는지 없는지
     private Date announceDate;
-
-    @Column(nullable = false) //nullable이 null값이 들어갈 수 있는지 없는지
     private Date interviewDate;
-
-    @Column(nullable = false) //nullable이 null값이 들어갈 수 있는지 없는지
     private Date passDate;
-
-    @Column(nullable = false) //nullable이 null값이 들어갈 수 있는지 없는지
     private Date otDate;
 }
