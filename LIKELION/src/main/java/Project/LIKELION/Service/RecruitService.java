@@ -14,7 +14,7 @@ public class RecruitService {
     public RecruitDTO getRecruit() {
         return recruitRepostory.findById(1)
                 .map(entity -> RecruitDTO.builder()
-                        .id(entity.getId())
+                        .id((int) entity.getId())
                         .url(entity.getUrl())
                         .applyDate(entity.getApplyDate())
                         .announceDate(entity.getAnnounceDate())

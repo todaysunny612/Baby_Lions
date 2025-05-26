@@ -22,7 +22,7 @@ import java.util.Date;
 public class RecruitEntity {
     @Id //컬럼의 이름을 id로 하겟당
     @Column(name = "id")
-    private Integer id;
+    private long id;
 
     @Column(columnDefinition = "TEXT", nullable = false)
     private String url; //구글폼

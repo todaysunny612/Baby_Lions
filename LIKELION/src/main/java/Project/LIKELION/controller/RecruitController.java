@@ -1,7 +1,7 @@
 package Project.LIKELION.controller;
 
-
 import Project.LIKELION.DTO.RecruitDTO;
+import Project.LIKELION.Entity.RecruitEntity;
 import Project.LIKELION.Service.RecruitService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -15,6 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class RecruitController {
     private final RecruitService recruitService;
+
+
 
     @GetMapping
     public ResponseEntity<RecruitDTO> getRecruit() {
